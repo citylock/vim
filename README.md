@@ -4,8 +4,10 @@
 sudo apt-get install vim git-core wget
 
 ### get the vimrc file
-wget https://github.com/citylock/vim/edit/master/vimrc
+-- modified by citylock
+wget https://raw.githubusercontent.com/citylock/vim/master/vimrc
 
+-- original vim config
 wget https://raw.githubusercontent.com/thesheff17/youtube/master/vim/vimrc
 
 mv vimrc .vimrc
