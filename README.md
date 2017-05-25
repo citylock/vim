@@ -33,6 +33,7 @@ wget https://raw.githubusercontent.com/thesheff17/youtube/master/vim/wombat256mo
 
 ### ftp plugin
 cd ~/.vim/ftplugin
+
 wget https://raw.githubusercontent.com/thesheff17/youtube/master/vim/python_editing.vim
 
 ### sort
@@ -40,19 +41,27 @@ wget https://raw.githubusercontent.com/thesheff17/youtube/master/vim/python_edit
 
 ### copy paste into vim
 go to into insert mode with i
+
 then hit F2.  Should say paste at the bottom
+
 :w write out file and all extra spaces should removed
 
 ### copy paste out from vim
 go to the nerd tree ctrl-w l
+
 :q to quit out
+
 :set nonumber to turn off line numbers
+
 select the text and copy to clipboard
 
 ### move code left right
 v for visual mode
+
 select text
+
 > moves right
+
 < moves left
 
 ### edit remote file with your vim settings
@@ -60,9 +69,12 @@ vim scp://root@10.0.3.33//home/ubuntu/test.py
 
 ### automatically configure vim on your machine
 wget https://raw.githubusercontent.com/thesheff17/youtube/master/vim/vim.py
+
 chmod +x ./vim.py
+
 ./vim.py -u root
 
 ### remove vim configuration
 rm -rf .vim/
+
 rm .vimrc
