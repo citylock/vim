@@ -196,7 +196,8 @@ set foldmethod=manual
 set wildmenu
 set wildmode=list:longest,full
 
-set clipboard=unnamedplus
+" set clipboard=unnamedplus
+set clipboard=unnamed
 
 " load up the nerd tree
 autocmd vimenter * NERDTree
