@@ -1,9 +1,9 @@
 # vim
 
-# install the packages
+### install the packages
 sudo apt-get install vim git-core wget
 
-# get the vimrc file
+### get the vimrc file
 wget https://raw.githubusercontent.com/thesheff17/youtube/master/vim/vimrc
 mv vimrc .vimrc
 
