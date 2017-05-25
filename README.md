@@ -1,9 +1,11 @@
-# vim
+## vim
 
 ### install the packages
 sudo apt-get install vim git-core wget
 
 ### get the vimrc file
+wget https://github.com/citylock/vim/edit/master/vimrc
+
 wget https://raw.githubusercontent.com/thesheff17/youtube/master/vim/vimrc
 
 mv vimrc .vimrc
